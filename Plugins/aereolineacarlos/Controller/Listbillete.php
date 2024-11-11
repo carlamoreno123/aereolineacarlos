@@ -3,28 +3,30 @@ namespace FacturaScripts\Plugins\aereolineacarlos\Controller;
 
 use FacturaScripts\Core\Lib\ExtendedController\ListController;
 
-class  ListVuelo extends ListController
-{
+class ListBillete extends ListController {
     public function getPageData(): array
     {
         $page = parent::getPageData();
-        $page['title'] = 'Vuelos';
+        $page['title'] = 'Billetes';
         $page['menu'] = 'Aereolinea';
-        $page['icon'] = 'fas fa-plane-departure';
+        $page['icon'] = 'fas fa-money-check-alt';
         return $page;
     }
 
     protected function createViews()
     {
-        // creamos cada pestaña en una función separada, por comodidad
-        $this->addView('Listvuelo', 'vuelo');
+        $this->addView('Listbillete', 'billete');
+        
+
     }
-    
+
     protected function loadData($viewName, $view) {
         switch ($viewName) {
-            case 'Listvuelo':
+            case 'Listbillete':
                 $view->loadData();
                 break; 
         }
     }
+    
+    
 }

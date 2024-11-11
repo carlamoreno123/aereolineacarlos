@@ -6,6 +6,16 @@
         <null>NO</null>
     </column>
     <column>
+        <name>idavion</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>numero</name>
+        <type>character varying(100)</type>
+        <null>NO</null>
+    </column>
+    <column>
         <name>origen</name>
         <type>character varying(100)</type>
         <null>NO</null>
@@ -17,22 +27,17 @@
     </column>
     <column>
         <name>fecha</name>
-        <type>haracter varying(100)</type>
+        <type>datetime</type>
         <null>NO</null>
     </column>
     <column>
         <name>horadesalida</name>
-        <type>haracter varying(100)</type>
+        <type>date</type>
         <null>NO</null>
     </column>
     <column>
         <name>horadellegada</name>
-        <type>haracter varying(100)</type>
-        <null>NO</null>
-    </column>
-    <column>
-        <name>modeloavion</name>
-        <type>character varying(100)</type>
+        <type>date</type>
         <null>NO</null>
     </column>
     <constraint><!-- restricciones-->

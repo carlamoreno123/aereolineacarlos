@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <column>
+        <name>idbillete</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idpasajero</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>idavion</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idvuelo</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>fechacompra</name>
+        <type>date</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>clase</name>
+        <type>character varying(20)</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>precio</name>
+        <type>double precision</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>formapago</name>
+        <type>character varying(20)</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>asiento</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>avion</name>
+        <type>character varying(20)</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>modelo</name>
+        <type>character varying(20)</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>capacidad</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+        <constraint><!-- restricciones-->
+        <name>billetes_pkey</name>
+        <type>PRIMARY KEY (idbillete)</type>
+     </constraint>
+</table>

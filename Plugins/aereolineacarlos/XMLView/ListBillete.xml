@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding ='UTF-8'?>
+<view>
+    <columns>
+            <column name="fechacompra" display="left" order="100">
+                <widget type="date" fieldname="fechacompra" />
+            </column>
+            <column name="clase" order="110">
+                <widget type="text" fieldname="clase" />
+            </column>
+            <column name="precio" display="right" order="120">
+                <widget type="date" fieldname="precio" />
+            </column>
+            
+
+            <column name="formapago"  order="100">
+                <widget type="datetime" fieldname="formapago" />
+            </column>
+            <column name="asiento" order="110">
+                <widget type="datetime" fieldname="asiento" />
+            </column>
+            <column name="modelo" display="right" order="120">
+                <widget type="autocomplete" fieldname="modelo" />
+            </column>
+            <column name="capacidad" display="right" order="120">
+                <widget type="autocomplete" fieldname="capacidad" />
+            </column>
+
+
+    </columns>
+</view>

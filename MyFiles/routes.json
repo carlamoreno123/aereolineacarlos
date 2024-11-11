@@ -334,6 +334,16 @@
         "customId": "",
         "position": 0
     },
+    "\/Editavion": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\Editavion",
+        "customId": "",
+        "position": 0
+    },
+    "\/Editbillete": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\Editbillete",
+        "customId": "",
+        "position": 0
+    },
     "\/Editpasajero": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\Editpasajero",
         "customId": "",
@@ -496,6 +506,16 @@
     },
     "\/ListUser": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListUser",
+        "customId": "",
+        "position": 0
+    },
+    "\/Listavion": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\Listavion",
+        "customId": "",
+        "position": 0
+    },
+    "\/Listbillete": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\Listbillete",
         "customId": "",
         "position": 0
     },

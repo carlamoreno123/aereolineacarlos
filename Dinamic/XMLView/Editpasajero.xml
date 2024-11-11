@@ -4,17 +4,20 @@
         <column name="nombre" order="100">
             <widget type="text" fieldname="nombre"/>
         </column>
-        <column name="apellidos" order="110">
+        <column name="apellidos" order="110" display="center">
             <widget type="text" fieldname="apellidos"/>
         </column>
-        <column name="dni" order="120">
+        <column name="dni" order="120" display="center">
             <widget type="text" fieldname="dni"/>
         </column>
-        <column name="direccion" order="130">
+        <column name="direccion" order="130" display="center">
             <widget type="text" fieldname="direccion"/>
         </column>
-        <column name="telefono" order="140">
-            <widget type="text" fieldname="telefono"/>
+        <column name="estadocivil" order="140" display="center">
+            <widget type="text" fieldname="estadocivil"/>
+        </column>
+        <column name="numbilletes" order="140" display="center">
+            <widget type="num" fieldname="numbilletes"/>
         </column>
     </columns>
 </view>

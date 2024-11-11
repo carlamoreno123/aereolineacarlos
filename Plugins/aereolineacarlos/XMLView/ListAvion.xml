@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<view>
+    <columns>
+        <column name="modelo" order ="100">
+            <widget type="text" fieldname ="modelo"/>
+        </column>
+        <column name="capacidad" order ="110" display="center">
+            <widget type="num" fieldname ="capacidad"/>
+        </column>
+    </columns>
+</view>

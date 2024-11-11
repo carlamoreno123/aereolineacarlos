@@ -26,9 +26,15 @@
         <null>NO</null>
     </column>
      <column>
-        <name>telefono</name>
+        <name>estadocivil</name>
         <type>character varying(20)</type>
         <null>NO</null>
+    </column>
+    <column>
+        <name>numbilletes</name>
+        <type>integer</type>
+        <null>NO</null>
+        <default>0</default>
     </column>
         <constraint><!-- restricciones-->
         <name>pasajeros_pkey</name>

@@ -32,12 +32,12 @@
     </column>
     <column>
         <name>horadesalida</name>
-        <type>datetime</type>
+        <type>date</type>
         <null>NO</null>
     </column>
     <column>
         <name>horadellegada</name>
-        <type>datetime</type>
+        <type>date</type>
         <null>NO</null>
     </column>
     <constraint><!-- restricciones-->

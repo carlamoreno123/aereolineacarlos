@@ -9,6 +9,7 @@ class Vuelo extends ModelClass{
     use ModelTrait;
 
     public $idvuelo;
+    public $idavion;
     public $origen;
     public $destino;
     public $fecha;

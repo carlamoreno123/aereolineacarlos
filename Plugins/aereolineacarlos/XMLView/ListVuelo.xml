@@ -20,7 +20,6 @@
             </column>
             <column name="avion" display="right" order="120">
                 <widget type="autocomplete" fieldname="idavion" />
-                <source></source>
             </column>
 
     </columns>

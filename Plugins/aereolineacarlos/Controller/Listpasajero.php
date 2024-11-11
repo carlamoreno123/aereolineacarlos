@@ -9,7 +9,7 @@ class ListPasajero extends ListController {
         $page = parent::getPageData();
         $page['title'] = 'Pasajeros';
         $page['menu'] = 'Aereolinea';
-        $page['icon'] = 'fa-solid fa-user';
+        $page['icon'] = 'fas fa-users';
         return $page;
     }
 

@@ -10,15 +10,16 @@
             <column name="fecha" display="right" order="120">
                 <widget type="date" fieldname="fecha"/>
             </column>
-            &gt;
+            
+
             <column name="horasalida" order="100">
                 <widget type="datetime" fieldname="horasalida"/>
             </column>
             <column name="horallegada" order="110">
                 <widget type="datetime" fieldname="horallegada"/>
             </column>
-            <column name="modeloavion" display="right" order="120">
-                <widget type="text" fieldname="modeloavion"/>
+            <column name="avion" display="right" order="120">
+                <widget type="autocomplete" fieldname="idavion"/>
             </column>
 
     </columns>

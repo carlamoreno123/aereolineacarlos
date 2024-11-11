@@ -13,8 +13,11 @@
         <column name="direccion" order="130" display="center">
             <widget type="text" fieldname="direccion"/>
         </column>
-        <column name="telefono" order="140" display="center">
-            <widget type="text" fieldname="telefono"/>
+        <column name="estadocivil" order="140" display="center">
+            <widget type="text" fieldname="estadocivil"/>
+        </column>
+        <column name="numbilletes" order="140" display="center">
+            <widget type="num" fieldname="numbilletes"/>
         </column>
     </columns>
 </view>
