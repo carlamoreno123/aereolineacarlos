@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding ='UTF-8'?>
+<view>
+    <columns>
+            <column name="origen" display="left" order="100">
+                <widget type="text" fieldname="origen" />
+            </column>
+            <column name="destino" order="110">
+                <widget type="text" fieldname="destino" />
+            </column>
+            <column name="fecha" display="right" order="120">
+                <widget type="date" fieldname="fecha" />
+            </column>
+            
+
+            <column name="horasalida"  order="100">
+                <widget type="datetime" fieldname="horasalida" />
+            </column>
+            <column name="horallegada" order="110">
+                <widget type="datetime" fieldname="horallegada" />
+            </column>
+            <column name="avion" display="right" order="120">
+                <widget type="autocomplete" fieldname="idavion" />
+                <source></source>
+            </column>
+
+    </columns>
+</view>
