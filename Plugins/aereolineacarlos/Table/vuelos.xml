@@ -12,7 +12,7 @@
     </column>
     <column>
         <name>numero</name>
-        <type>character varying(100)</type>
+        <type>integer</type>
         <null>NO</null>
     </column>
     <column>
@@ -27,17 +27,17 @@
     </column>
     <column>
         <name>fecha</name>
-        <type>datetime</type>
+        <type>date</type>
         <null>NO</null>
     </column>
     <column>
         <name>horadesalida</name>
-        <type>date</type>
+        <type>datetime</type>
         <null>NO</null>
     </column>
     <column>
         <name>horadellegada</name>
-        <type>date</type>
+        <type>datetime</type>
         <null>NO</null>
     </column>
     <constraint><!-- restricciones-->

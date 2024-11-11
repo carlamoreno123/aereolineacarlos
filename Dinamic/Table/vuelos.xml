@@ -12,7 +12,7 @@
     </column>
     <column>
         <name>numero</name>
-        <type>character varying(100)</type>
+        <type>integer</type>
         <null>NO</null>
     </column>
     <column>

@@ -10,6 +10,7 @@ class Vuelo extends ModelClass{
 
     public $idvuelo;
     public $idavion;
+    public $numero;
     public $origen;
     public $destino;
     public $fecha;

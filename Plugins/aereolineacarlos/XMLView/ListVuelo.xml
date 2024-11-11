@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding ='UTF-8'?>
 <view>
     <columns>
+        <column name="numero" display="left" order="100">
+            <widget type="num" fieldname="numero" />
+        </column>
             <column name="origen" display="left" order="100">
                 <widget type="text" fieldname="origen" />
             </column>
