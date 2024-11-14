@@ -4,9 +4,11 @@
     "work_events",
     "settings",
     "users",
-    "pasajeros",
+    "vuelos",
     "pages_options",
     "pages_filters",
-    "vuelos",
-    "logs"
+    "logs",
+    "almacenes",
+    "billetes",
+    "aviones"
 ]

@@ -14,8 +14,8 @@ class Vuelo extends ModelClass{
     public $origen;
     public $destino;
     public $fecha;
-    public $horasalida;
-    public $horallegada;
+    public $horadesalida;
+    public $horadellegada;
     public $modeloavion;
 
     public static function primaryColumn(): string

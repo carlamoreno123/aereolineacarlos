@@ -16,13 +16,13 @@
             
 
             <column name="horasalida"  order="100">
-                <widget type="datetime" fieldname="horasalida" />
+                <widget type="date" fieldname="horasalida" />
             </column>
             <column name="horallegada" order="110">
-                <widget type="datetime" fieldname="horallegada" />
+                <widget type="date" fieldname="horallegada" />
             </column>
-            <column name="avion" display="right" order="120">
-                <widget type="autocomplete" fieldname="idavion" />
+            <column name="modeloavion" display="right" order="120">
+                <widget type="text" fieldname="modeloavion" />
             </column>
 
     </columns>

@@ -27,7 +27,7 @@
     </column>
     <column>
         <name>fecha</name>
-        <type>datetime</type>
+        <type>date</type>
         <null>NO</null>
     </column>
     <column>
@@ -40,8 +40,13 @@
         <type>date</type>
         <null>NO</null>
     </column>
+    <column>
+        <name>modeloavion</name>
+        <type>character varying(100)</type>
+        <null>NO</null>
+    </column>
     <constraint><!-- restricciones-->
         <name>vuelos_pkey</name>
         <type>PRIMARY KEY (idvuelo)</type>
-     </constraint>
-    </table>
+    </constraint>
+</table>

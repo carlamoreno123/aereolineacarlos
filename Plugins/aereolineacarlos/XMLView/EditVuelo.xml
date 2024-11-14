@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding ='UTF-8'?>
 <view>
     <columns>
+        <column name="numero" display="left" order="100">
+            <widget type="num" fieldname="numero" />
+        </column>
             <column name="origen" display="left" order="100">
                 <widget type="text" fieldname="origen" />
             </column>
@@ -10,12 +13,13 @@
             <column name="fecha" display="right" order="120">
                 <widget type="date" fieldname="fecha" />
             </column>
-            >
+            
+
             <column name="horasalida"  order="100">
-                <widget type="datetime" fieldname="horasalida" />
+                <widget type="date" fieldname="horasalida" />
             </column>
             <column name="horallegada" order="110">
-                <widget type="datetime" fieldname="horallegada" />
+                <widget type="date" fieldname="horallegada" />
             </column>
             <column name="modeloavion" display="right" order="120">
                 <widget type="text" fieldname="modeloavion" />
